@@ -1,5 +1,5 @@
-#define closed false
-#define open true
+#define closedSwitch false
+#define openSwitch true
 
 //tanks and switches are defined below
 #define cistern 25 // Main Cistern Low level float switch
@@ -10,8 +10,8 @@
 #define manualOveride 23
 
 #define tank4Clean 24
-#define tank4Low 12
-#define tank4High 11
+#define tank4Low 27
+#define tank4High 26
 
 #define tank3Clean 10
 #define tank3Low 9
@@ -24,6 +24,9 @@
 #define tank1Clean 4
 #define tank1Low 3
 #define tank1High 2
+
+#define chipSelect BUILTIN_SDCARD
+//MISO,sClock, MOSI are already defined, do nothing
 
 
 //Single Tank test
