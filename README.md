@@ -12,7 +12,7 @@ If switch is down, water system runs normally
 *Cleaning/Limpiar
 To clean one tank, flip respective tank number switch up after closing intake valve. 
 
-!(https://github.com/PacTEA/LWHWaterPumpAutomation-Guatemala-December2019/blob/master/ControlPanelDiagram.PNG)
+![Image of Control Panel](https://github.com/PacTEA/LWHWaterPumpAutomation-Guatemala-December2019/blob/master/ControlPanelDiagram.PNG)
 
 
 
