@@ -513,11 +513,11 @@ unsigned long processSyncMessage() {
 
 // digital clock display of the time for microSD
 void digitalClockDisplay(File dataFile) {
-  dataFile.print(second());
+  dataFile.print(hour());
   printDigits(minute(), dataFile);
   printDigits(second(), dataFile);
   dataFile.print(" ");
-  dataFile.print(minute());
+  dataFile.print(day());
   dataFile.print(" ");
   dataFile.print(month());
   dataFile.print(" ");
